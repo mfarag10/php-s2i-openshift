@@ -8,6 +8,7 @@
   <title>Example Health farag</title>
   <meta name="description" content="Example Health Admin">
   <meta name="Max Shapiro" content="Example Health">
+	
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
   <link rel="stylesheet" href="style/styles.css?v=1.0">
   <link rel="stylesheet" href="style/admin.css?v=1.0">
@@ -37,6 +38,8 @@
     <div class="group">
       <div class="manage">
 		<?php require "dataHandler.php";
+
+	echo '<a href="farag.php" target="_blank">Click Me</a>'; 
 
 			$patients = getPatients();
 			$totalPatients = count($patients);
